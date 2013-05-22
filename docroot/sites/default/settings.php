@@ -210,21 +210,9 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'drupal4ok',
-      'username' => 'root',
-      'password' => 'root',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+if (file_exists('/var/www/site-php')) {
+    require('/var/www/site-php/drupal4ok/housing_branch-settings.inc');
+}
 
 /**
  * Access control for update.php script.
