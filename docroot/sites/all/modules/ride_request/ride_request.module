@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ride Request feature.
+ */
+
+include_once 'ride_request.features.inc';
