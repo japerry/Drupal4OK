@@ -7,6 +7,7 @@
 @import "normalize";
 
 @import "partials/base";
+@import "partials/_formalize";
 
 // Base Tags
 body, html {
@@ -15,6 +16,7 @@ body, html {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+
 }
 
 td {

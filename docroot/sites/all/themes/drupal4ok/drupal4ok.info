@@ -4,3 +4,6 @@ package = Core
 version = VERSION
 core = 7.x
 stylesheets[all][] = stylesheets/css/screen.css
+scripts[] = scripts/jquery-noclickdelay.js
+scripts[] = scripts/geoloc.js
+scripts[] = scripts/behavior.js
