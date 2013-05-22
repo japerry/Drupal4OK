@@ -1,0 +1,15 @@
+name = User Feature
+description = User oject has extra fields:  contact method and language
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = user_feature
+dependencies[] = features
+dependencies[] = list
+dependencies[] = options
+features[features_api][] = api:2
+features[field_base][] = field_preferred_contact_method
+features[field_base][] = field_preferred_language
+features[field_instance][] = user-user-field_preferred_contact_method
+features[field_instance][] = user-user-field_preferred_language
+project path = sites/all/modules/custom/features
