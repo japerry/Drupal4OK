@@ -31,7 +31,7 @@ function housing_have_views_api() {
 function housing_have_node_info() {
   $items = array(
     'housing_have' => array(
-      'name' => t('Open Bed'),
+      'name' => t('Give a Bed'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
