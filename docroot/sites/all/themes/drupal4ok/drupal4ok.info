@@ -1,0 +1,6 @@
+name = Drupal4OK
+description = DrupalCon OK disaster sprint theme
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = stylesheets/css/screen.css
